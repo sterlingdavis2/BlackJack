@@ -1,0 +1,71 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgrey;
+    color: white;
+    font-size: 16px;
+    background-image: url(/images/table.png);
+    background-size: cover;
+}
+
+
+/*===========
+Typography
+============*/
+.container {
+    text-align: center;
+}
+
+.title-text {
+    margin-top: 2em;
+    color: goldenrod;
+}
+
+.subtitle {
+    font-weight: bolder;
+}
+
+p {
+    margin: 0 0 1em 0;
+}
+
+/*===========
+Buttons
+============*/
+.btn {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bolder;
+    padding: .5em 5em;
+    background-color: goldenrod;
+    color: darkgreen;
+    width: 250px;
+    margin-top: 1em;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: rgb(245, 188, 44);
+}
+
+
+/*===========
+Layout
+============*/
+.container {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+/*===========
+Footer
+============*/
+
